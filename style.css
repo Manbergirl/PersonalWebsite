@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;900&display=swap');
+
+
+.img-bea {
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+:root {
+    background-color: #a4c4d5;
+    text-emphasis-color: #481e1e;
+}
+
+html {
+    font-size: 30px;
+}
+
+.title-wrapper {
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.title-wrapper .main-username {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.title-wrapper .job-position {
+    margin-top: 0;
+    margin-bottom: -40px;
+}
+
+.description {
+    margin-top: 2rem;
+    font-size: 0.5rem;
+    font-style: var(text-emphasis-color); 
+}
+
+.user-phone {
+    font-size: 15px;
+}
+
+.icon {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.email {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.mobile-site {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.location {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content-box-wrapper {   
+    background-color: rgb(199, 189, 189);
+    padding: 30px 40px 60px 100px;
+    margin: 100px;
+}
+
+.link-for-download {
+    display: block;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:768px) {
+  .content-box-wrapper {
+        flex-direction: column;
+  } 
+}
+
+
+
+
